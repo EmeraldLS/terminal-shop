@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	repo := repository.NewRepository("postgresql://postgres:lawrenc2003@localhost/terminal_shop?sslmode=disable")
+	repo := repository.NewRepository("postgresql://postgres:bigbootylatina@localhost/terminal_shop?sslmode=disable")
 	ssh.Handle(func(s ssh.Session) {
 		rest.ProcessTerminalInput(s, repo)
 	})
